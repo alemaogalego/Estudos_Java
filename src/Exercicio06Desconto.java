@@ -8,4 +8,6 @@ public class Exercicio06Desconto {
         System.out.println("Exercício 6 - Calculando o preço com desconto");
         System.out.printf("Preço com desconto: R$ %.2f%n", precoComDesconto);
         System.out.println();
-   
+    }
+}
+

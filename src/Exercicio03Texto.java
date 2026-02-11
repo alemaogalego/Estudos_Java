@@ -1,4 +1,4 @@
-public class Exercicio3 {
+public class Exercicio03Texto {
     // Exercício 3: Concatenando um char e uma String
 
     public static void executar() {
