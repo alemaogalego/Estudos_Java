@@ -16,20 +16,14 @@ public class Exercicio07Robo {
         }
 
     }
-
     private static String moverRobo(String direcao, int passos) {
-
-        switch (direcao) {
-            case "N":
-                return "O robô se moveu " + passos + " passos para o Norte.";
-            case "S":
-                return "O robô se moveu " + passos + " passos para o Sul.";
-            case "L":
-                return "O robô se moveu " + passos + " passos para a Leste.";
-            case "O":
-                return "O robô se moveu " + passos + " passos para a Oeste.";
-            default:
-                return "Direção inválida. Use N, S, L ou O.";
-        }
+        // O switch agora retorna o resultado diretamente para o método
+        return switch (direcao) {
+            case "N" -> "O robô se moveu " + passos + " passos para o Norte.";
+            case "S" -> "O robô se moveu " + passos + " passos para o Sul.";
+            case "L" -> "O robô se moveu " + passos + " passos para a Leste.";
+            case "O" -> "O robô se moveu " + passos + " passos para a Oeste.";
+            default  -> "⚠️ Direção inválida. Use N, S, L ou O.";
+        };
     }
 }
