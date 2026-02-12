@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio07Robo {
-    public static void main(String[] args) {
+    public static void executar() {
         try (Scanner scanner = new Scanner(System.in)) {;
 
             System.out.println("Exercício 7 - Movimentação de um robô");
@@ -17,7 +17,7 @@ public class Exercicio07Robo {
 
     }
     private static String moverRobo(String direcao, int passos) {
-        // O switch agora retorna o resultado diretamente para o método
+                // O switch agora retorna o resultado diretamente para o metodo
         return switch (direcao) {
             case "N" -> "O robô se moveu " + passos + " passos para o Norte.";
             case "S" -> "O robô se moveu " + passos + " passos para o Sul.";
@@ -26,4 +26,5 @@ public class Exercicio07Robo {
             default  -> "⚠️ Direção inválida. Use N, S, L ou O.";
         };
     }
+
 }

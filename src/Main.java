@@ -10,6 +10,8 @@ public class Main {
         Exercicio04Produto.executar();
         Exercicio05Moeda.executar();
         Exercicio06Desconto.executar();
+        Exercicio07Robo.executar();
+
 
         System.out.println("=== FIM DOS EXERCÍCIOS ===");
     }
