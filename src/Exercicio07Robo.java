@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio07Robo {
     public static void executar() {
-        try (Scanner scanner = new Scanner(System.in)) {;
+            Scanner scanner = new Scanner(System.in) ;
 
             System.out.println("Exercício 7 - Movimentação de um robô");
             System.out.print("Digite a direção (N, S, L, O): ");
@@ -13,7 +13,7 @@ public class Exercicio07Robo {
 
             String resultado = moverRobo(direcao, passos);
             System.out.println(resultado);
-        }
+
 
     }
     private static String moverRobo(String direcao, int passos) {
