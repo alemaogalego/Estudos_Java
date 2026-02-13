@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {;
+        try (Scanner scanner = new Scanner(System.in)) {
             List<Runnable> exercicios = Arrays.asList(
                     Exercicio01Media::executar,
                     Exercicio02Casting::executar,
@@ -12,7 +12,12 @@ public class Main {
                     Exercicio05Moeda::executar,
                     Exercicio06Desconto::executar,
                     Exercicio07Robo::executar,
-                    Exercicio08PositivoNegativo::executar
+                    Exercicio08PositivoNegativo::executar,
+                    Exercicio09Comparador::executar
+//                    Exercicio10Areas::executar,
+//                    Exercicio11Tabuada::executar,
+//                    Exercicio12ParImpar::executar,
+//                    Exercicio13Fatorial::executar
             );
             while (true) {
                 System.out.println("\n=== MENU DE EXERCÍCIOS ===");
