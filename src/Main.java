@@ -25,11 +25,11 @@ public class Main {
                     Exercicio16Musica::executar,
                     Exercicio17Carro::executar,
                     Exercicio18Aluno::executar,
-                    Exercicio19ContaBancaria::executar
-//                    Exercicio20IdadePessoa::executar,
-//                    Exercicio21Produto::executar,
-//                    Exercicio22AlunoNotas::executar,
-//                    Exercicio23Livro::executar
+                    Exercicio19ContaBancaria::executar,
+                    Exercicio20IdadePessoa::executar,
+                    Exercicio21Produto::executar,
+                    Exercicio22AlunoNotas::executar,
+                    Exercicio23Livro::executar
 
             );
             while (true) {
