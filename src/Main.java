@@ -11,7 +11,8 @@ public class Main {
                     Exercicio04Produto::executar,
                     Exercicio05Moeda::executar,
                     Exercicio06Desconto::executar,
-                    Exercicio07Robo::executar
+                    Exercicio07Robo::executar,
+                    Exercicio08PositivoNegativo::executar
             );
             while (true) {
                 System.out.println("\n=== MENU DE EXERCÍCIOS ===");
