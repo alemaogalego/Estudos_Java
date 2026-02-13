@@ -1,7 +1,9 @@
+package br.com.exercicios.estudos;
+
 import java.util.Scanner;
 
 public class Exercicio13Fatorial {
-    static void executar() {
+    public static void executar() {
         Scanner leitor = new Scanner(System.in);
         System.out.print("Digite um número inteiro para calcular o fatorial: ");
         int numero = leitor.nextInt();

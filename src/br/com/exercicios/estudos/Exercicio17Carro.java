@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio17Carro {
 
     String modelo;

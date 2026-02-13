@@ -1,7 +1,9 @@
+package br.com.exercicios.estudos;
+
 import java.util.Scanner;
 
 public class Exercicio15Calculadora {
-    static void executar() {
+    public static void executar() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro número: ");
         double num1 = scanner.nextDouble();

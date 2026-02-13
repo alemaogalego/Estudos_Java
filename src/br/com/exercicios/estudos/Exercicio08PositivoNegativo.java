@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 import java.util.Scanner;
 
 public class Exercicio08PositivoNegativo {

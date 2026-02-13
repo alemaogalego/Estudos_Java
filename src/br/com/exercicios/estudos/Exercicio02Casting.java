@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio02Casting {
     // Exercício 2: Convertendo um valor de double para int
 

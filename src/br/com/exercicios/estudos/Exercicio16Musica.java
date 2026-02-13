@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio16Musica {
     String musica = "Despacito";
     String artista = "Luis Fonsi";
@@ -21,7 +23,7 @@ public class Exercicio16Musica {
         return (totalAvaliacoes == 0) ? 0 : somaAvaliacoes / totalAvaliacoes;
     }
 
-    static void executar() {
+    public static void executar() {
         Exercicio16Musica musica = new Exercicio16Musica();
 
         musica.exibirFichaTecnica();

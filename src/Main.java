@@ -1,3 +1,5 @@
+import br.com.exercicios.estudos.*;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -22,7 +24,12 @@ public class Main {
                     Exercicio15Calculadora::executar,
                     Exercicio16Musica::executar,
                     Exercicio17Carro::executar,
-                    Exercicio18Aluno::executar
+                    Exercicio18Aluno::executar,
+                    Exercicio19ContaBancaria::executar
+//                    Exercicio20IdadePessoa::executar,
+//                    Exercicio21Produto::executar,
+//                    Exercicio22AlunoNotas::executar,
+//                    Exercicio23Livro::executar
 
             );
             while (true) {

@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio03Texto {
     // Exercício 3: Concatenando um char e uma String
 

@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio05Moeda {
     // Exercício 5: Convertendo um valor de dólares para reais
 

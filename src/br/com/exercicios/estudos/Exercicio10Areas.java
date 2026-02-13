@@ -1,7 +1,9 @@
+package br.com.exercicios.estudos;
+
 import java.util.Scanner;
 
 public class Exercicio10Areas {
-    static void executar() {
+    public static void executar() {
         int escolha = 0;
 
         Scanner leitor = new Scanner(System.in);

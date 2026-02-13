@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 import java.util.Scanner;
 
 public class Exercicio18Aluno {
@@ -10,7 +12,7 @@ public class Exercicio18Aluno {
         System.out.println("Idade: " + idade);
     }
 
-    static void executar() {
+    public static void executar() {
         Scanner scanner = new Scanner(System.in);
         Exercicio18Aluno aluno = new Exercicio18Aluno();
 

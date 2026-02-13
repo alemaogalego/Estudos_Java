@@ -1,7 +1,9 @@
+package br.com.exercicios.estudos;
+
 import java.util.Scanner;
 
 public class Exercicio11Tabuada {
-    static void executar() {
+    public static void executar() {
         Scanner leitor = new Scanner(System.in);
         System.out.print("Digite um número para ver a tabuada: ");
         int numero = leitor.nextInt();

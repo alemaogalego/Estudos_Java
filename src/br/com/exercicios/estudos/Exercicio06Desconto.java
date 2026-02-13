@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio06Desconto {
     // Exercício 6: Calculando o preço com desconto
 

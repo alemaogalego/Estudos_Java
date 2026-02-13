@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio04Produto {
     // Exercício 4: Calculando o valor total de uma compra
 

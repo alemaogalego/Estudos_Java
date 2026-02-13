@@ -1,3 +1,5 @@
+package br.com.exercicios.estudos;
+
 public class Exercicio01Media {
     // Exercício 1: Calculando a média de dois números
 
