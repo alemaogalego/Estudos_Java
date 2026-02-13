@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio12ParImpar {
-    static void main() {
+    static void executar() {
         Scanner leitor = new Scanner(System.in);
         System.out.print("Digite um número inteiro: ");
         int numero = leitor.nextInt();

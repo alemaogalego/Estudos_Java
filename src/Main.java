@@ -15,9 +15,9 @@ public class Main {
                     Exercicio08PositivoNegativo::executar,
                     Exercicio09Comparador::executar,
                     Exercicio10Areas::executar,
-                    Exercicio11Tabuada::executar
-//                    Exercicio12ParImpar::executar,
-//                    Exercicio13Fatorial::executar
+                    Exercicio11Tabuada::executar,
+                    Exercicio12ParImpar::executar,
+                    Exercicio13Fatorial::main
             );
             while (true) {
                 System.out.println("\n=== MENU DE EXERCÍCIOS ===");
