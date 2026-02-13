@@ -14,8 +14,8 @@ public class Main {
                     Exercicio07Robo::executar,
                     Exercicio08PositivoNegativo::executar,
                     Exercicio09Comparador::executar,
-                    Exercicio10Areas::executar
-//                    Exercicio11Tabuada::executar,
+                    Exercicio10Areas::executar,
+                    Exercicio11Tabuada::executar
 //                    Exercicio12ParImpar::executar,
 //                    Exercicio13Fatorial::executar
             );
