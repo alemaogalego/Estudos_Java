@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio15Calculadora {
-    public static void main(String[] args) {
-
+    static void executar() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro número: ");
         double num1 = scanner.nextDouble();
@@ -35,6 +34,10 @@ public class Exercicio15Calculadora {
             System.out.println("Resultado: " + resultado);
         }
 
-        scanner.close();
+        // não fechamos o scanner aqui pra não fechar System.in e quebrar o menu
+    }
+
+    public static void main(String[] args) {
+        executar();
     }
 }

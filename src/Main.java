@@ -17,7 +17,13 @@ public class Main {
                     Exercicio10Areas::executar,
                     Exercicio11Tabuada::executar,
                     Exercicio12ParImpar::executar,
-                    Exercicio13Fatorial::main
+                    Exercicio13Fatorial::executar,
+                    Exercicio14Pessoa::executar,
+                    Exercicio15Calculadora::executar,
+                    Exercicio16Musica::executar,
+                    Exercicio17Carro::executar,
+                    Exercicio18Aluno::executar
+
             );
             while (true) {
                 System.out.println("\n=== MENU DE EXERCÍCIOS ===");
