@@ -42,7 +42,6 @@ public class Main {
 
                 if (escolha > 0 && escolha <= exercicios.size()) {
                     System.out.println("\n--- Executando " + (escolha) + " ---");
-                    // Pega o exercício da lista pelo índice (escolha - 1) e roda!
                     exercicios.get(escolha - 1).run();
                     System.out.println("\n-----------------------");
                 } else {

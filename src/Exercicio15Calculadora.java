@@ -34,7 +34,6 @@ public class Exercicio15Calculadora {
             System.out.println("Resultado: " + resultado);
         }
 
-        // não fechamos o scanner aqui pra não fechar System.in e quebrar o menu
     }
 
     public static void main(String[] args) {
